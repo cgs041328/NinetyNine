@@ -1,0 +1,1 @@
+encode xs = map (length &&& head) $ group xs
